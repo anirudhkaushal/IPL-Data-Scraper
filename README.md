@@ -1,7 +1,7 @@
 # IPL-Data-Scraper
 
-Web scraping project made using Node.js that fetches IPL 2020 data from espncricinfo website and then parses it in .xlsx format.
-
-The script creates a folder for each IPL team in which every player's data is saved individually in Excel file. 
+ - A web scraper that scrapes details of batsman of each team in the IPL.
+ - request npm package is used to make HTTP calls and cheerio package is used to extract data out of it.
+ - Node fs module is used to create folders of each team and xlsx module is used to create Excel file for each player.
 
 NOTE: The IPL folder present in the repository has been created using the command -> node main.js 
